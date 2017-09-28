@@ -1,0 +1,8 @@
+{
+	"development": {
+		"base_url":"http://52.66.93.146:3000"
+	},
+	"production": {
+		"base_url":"http://52.66.93.146:3000"
+	}
+}
