@@ -1,27 +1,29 @@
 {
   "development": {
-    "username": "postgres_user",
+    "username": "webservice",
     "password": "admin",
-    "database": "my_restaurant_postgres_db",
-    "host": "localhost",
-		"dialect": "postgres",
-		"port": "5432",
-		"migrationStorage": "json"
+    "database": "restaurant_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": "5432", 
+    "migrationStorage": "json" 
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
+    "username": "webservice",
+    "password": "admin",
+    "database": "restaurant_db",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "postgres",
+    "port": "5432", 
+    "migrationStorage": "json" 
   },
   "production": {
-    "username": "postgres_user",
+    "username": "webservice",
     "password": "admin",
-    "database": "my_restaurant_postgres_db",
-    "host": "localhost",
-		"dialect": "postgres",
-		"port": "5432",
-		"migrationStorage": "json"
+    "database": "restaurant_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": "5432", 
+    "migrationStorage": "json" 
   }
 }
